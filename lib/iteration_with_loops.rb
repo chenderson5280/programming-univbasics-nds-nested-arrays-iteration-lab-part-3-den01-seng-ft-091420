@@ -7,7 +7,7 @@ def join_nested_strings(src)
     inner_count = 0
     result = ""
     while inner_count < src[count].length do
-      if src[count][inner_count].include? String()
+      if src[count][inner_count].include? '""'
         result << src[count][inner_count]
       end
       inner_count +=1
