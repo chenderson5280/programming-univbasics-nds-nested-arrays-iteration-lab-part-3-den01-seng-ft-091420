@@ -9,6 +9,7 @@ def join_nested_strings(src)
     while inner_count < src[count].length do
       if src[count][inner_count].include? Strings
         result << src[count][inner_count]
+      end
       inner_count +=1
     end
     count +=1
