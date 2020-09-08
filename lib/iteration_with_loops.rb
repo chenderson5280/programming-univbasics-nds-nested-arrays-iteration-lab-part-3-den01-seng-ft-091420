@@ -13,7 +13,7 @@ def join_nested_strings(src)
       inner_count +=1
     end
     count +=1
-    final_result<<result
+    final_result<<result.join()
   end
   final_result
 end
